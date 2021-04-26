@@ -1,0 +1,34 @@
+@import "../../styles/mixin.scss";
+@import "../../styles/form.scss";
+
+.join_page {
+  @include flex(column, start, center);
+}
+
+.form_bg {
+  @include wh(100%, 264px);
+  @include flex(column, start, center);
+  background: $primary-color;
+  padding-top: 30px;
+}
+
+.form_container {
+  margin-top: -72px;
+
+  .select_address {
+    width: 400px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.btn_hover {
+  box-shadow: none;
+}
+
+.crop-canvas {
+  position: absolute;
+  top: -1000px;
+  background-color: gray;
+}

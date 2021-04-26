@@ -1,0 +1,1 @@
+export const CREATE_TEMPLATE_MSG_ID = 'FfeCp3q_d0piOa6IW1Y3bfLl0JqZ2qw3Ouro15kx4Gg'
